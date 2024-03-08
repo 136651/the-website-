@@ -2,16 +2,17 @@ html {
   height: 100%;
   width: 100%;
 }
-
-#first{
+/* this is for the navigation bar and making it fixed as you scroll down the page */
+.first{
   position: fixed;
   top:0px;
   width:100%;
   height:90px;
   background-color: rgb(243, 235, 220);
   z-index: 4;
-
 }
+
+/* this is the burger logo */
 #logo{
   position: absolute;
   top:20px;
@@ -22,6 +23,7 @@ html {
   z-index: 3;
 
 }
+/* this is the order option */
 #Order{
   position: absolute;
   top:40px;
@@ -32,7 +34,7 @@ html {
   font-family: serif;
   font-weight: bolder;
 }
-
+/* this is the offers option */
 #Offers{
   position: absolute;
   top:40px;
@@ -43,7 +45,7 @@ html {
   font-family: serif;
   font-weight: bolder;
 }
-
+/* this is the menu option */
 #Menu{
   position: absolute;
   top:40px;
@@ -54,7 +56,7 @@ html {
   font-family: serif;
   font-weight: bolder;
 }
-
+/* this is the delivery option */
 #Delivery{
   position: absolute;
   top:40px;
@@ -65,7 +67,7 @@ html {
   font-family: serif;
   font-weight: bolder;
 }
-
+/* this is the more option */
 #More{
   position: absolute;
   top:40px;
@@ -76,7 +78,7 @@ html {
   font-family: serif;
   font-weight: bolder;
 }
-
+/* this is the for item avalability option */
 #location1{
   position: absolute;
   top:40px;
@@ -87,6 +89,7 @@ html {
   font-family: ebrima;
   font-weight: bolder;
 }
+/* this is the choose your location option */
 #location2{
   position: absolute;
   top:43px;
@@ -96,6 +99,7 @@ html {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bolder;
 }
+/* this is the sign up option */
 #sign-up{
   position: absolute;
   top:40px;
@@ -113,6 +117,7 @@ html {
   padding-top: 3px;
   padding-bottom: 3px;  
 }
+/* this is the cart option */
 #cart{
   position: absolute;
   top:40px;
@@ -131,7 +136,7 @@ html {
   padding-bottom: 3px;  
 }
 
-
+/* this is the brown bar just below the navbar*/
 #nav-bar{
   background-color: rgb(80, 35, 20);
   height: 100px;
@@ -141,6 +146,7 @@ html {
   left: 0;
   z-index: 1;
 }
+/* this is the your burger king image in the brown bar */
 #Your-Burger-King{
   position: absolute;
   top: 30px;
@@ -148,6 +154,7 @@ html {
   z-index: 2;
   height: 30px;
 }
+/* this is the welcome paragraph in the brown bar */
 #Wecome-Message{
   position: absolute;
   top: 45px;
@@ -158,6 +165,7 @@ html {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
+/* this is the learn more option in the brown bar */
 #learn-more{
   text-decoration: none;
   color: white;
@@ -176,6 +184,7 @@ html {
   font-weight:900;
   font-family: Arial, Helvetica, sans-serif;
 }
+/* this is the learn more link in the brown bar */
 #learn-more-link{
   position: absolute;
   top: 51px;

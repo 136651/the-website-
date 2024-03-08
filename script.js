@@ -4,6 +4,7 @@ mainContent.style.top = "190px";
 mainContent.style.height = "1500px";
 mainContent.style.width = "100%";
 
+// this sets up the family value Image and positions it and chnages it size and add padding 
 let familyValueImg = document.getElementById("family");
 familyValueImg.src="https://cdn.sanity.io/images/czqk28jt/prod_bk_gb/15cd6fc144fa9c6d0a1accf25f1fcee2ce393c40-1000x500.png?w=1125&q=40&fit=max&auto=format";
 familyValueImg.style.position = "absolute";
@@ -15,7 +16,7 @@ familyValueImg.style.borderRadius="10px";
 familyValueImg.style.paddingBottom="120px";
 familyValueImg.style.backgroundColor="white";
 
-
+// this sets up the family value heading and positions it and chnages it size
 let familyValueHead = document.getElementById("familyHead");
 familyValueHead.innerHTML = "Family value!"
 familyValueHead.style.position = "absolute";
@@ -23,7 +24,7 @@ familyValueHead.style.top = "620px";
 familyValueHead.style.left = "205px";
 familyValueHead.style.color= "rgb(80,35,20)";
 
-
+//this sets up the family value parapgraph and positions it and chnages it size
 let familyValueText = document.getElementById("familyText");
 familyValueText.innerHTML = "When you buy a qualifying Adult Meal between 12th - 23rd<br>February"
 familyValueText.style.position = "absolute";
@@ -32,6 +33,7 @@ familyValueText.style.left = "205px";
 familyValueText.style.color="rgb(80,35,20)";
 familyValueText.style.fontSize="14px";
 
+//this creates the redeem offer button and adds an event listenser so it changes color when you hover over it 
 let familyValueButton = document.getElementById("familyButton");
 familyValueButton.href="#";
 familyValueButton.innerHTML = "redeem offer";
@@ -54,6 +56,7 @@ familyValueButton.addEventListener("mouseout", function(){
   familyValueButton.style.backgroundColor="rgb(202, 11, 6)";
 })
 
+//Peppercorn Gourmet Kings image
 let pepperValueImg = document.getElementById("pepper");
 pepperValueImg.src = "https://cdn.sanity.io/images/czqk28jt/prod_bk_gb/423b0c1100e6ba2a700189d038116a109852f884-1000x500.png?w=1125&q=40&fit=max&auto=format";
 pepperValueImg.style.position = "absolute";
@@ -66,6 +69,7 @@ pepperValueImg.style.paddingBottom="120px";
 pepperValueImg.style.backgroundColor="white";
 pepperValueImg.style.zIndex="1";
 
+//pepercorn gourmet kings heading
 let pepperValueHead = document.getElementById("pepperHead");
 pepperValueHead.innerHTML = "Peppercorn Gourmet Kings";
 pepperValueHead.style.position = "absolute";
@@ -74,6 +78,7 @@ pepperValueHead.style.left = "775px";
 pepperValueHead.style.color= "rgb(80,35,20)";
 pepperValueHead.style.zIndex="1";
 
+//peppercorn gourmet kings parapgraph
 let pepperValueText = document.getElementById("pepperText");
 pepperValueText.innerHTML = "150g of Aberdeen Angus or Crispy Chicken with a <br> classic Peppercorn mayo"
 pepperValueText.style.position = "absolute";
@@ -83,6 +88,7 @@ pepperValueText.style.color="rgb(80,35,20)";
 pepperValueText.style.fontSize="14px";
 pepperValueText.style.zIndex="1";
 
+//redeem offer button for pepercorn gourmet kings
 let pepperValueButton = document.getElementById("pepperButton");
 pepperValueButton.href="#";
 pepperValueButton.innerHTML = "redeem offer";
@@ -106,6 +112,7 @@ pepperValueButton.addEventListener("mouseout", function(){
 })
 pepperValueButton.style.zIndex= "1";
 
+//this is for the NEW Doritos Tangy Cheese Chicken Fries image
 let chickenValueImg = document.getElementById("chicken");
 chickenValueImg.src = "https://cdn.sanity.io/images/czqk28jt/prod_bk_gb/e821764096a7c20f4bf0caeda50391f28636ebcc-1000x500.png?w=1125&q=40&fit=max&auto=format"
 chickenValueImg.style.position = "absolute";
@@ -118,6 +125,7 @@ chickenValueImg.style.paddingBottom="120px";
 chickenValueImg.style.backgroundColor="white";
 chickenValueImg.style.zIndex="1";
 
+//this is for the NEW Doritos Tangy Cheese Chicken Fries heading 
 let chickenValueHead = document.getElementById("chickenHead");
 chickenValueHead.innerHTML = "NEW Doritos Tangy Cheese Chicken Fries";
 chickenValueHead.style.position = "absolute";
@@ -126,8 +134,9 @@ chickenValueHead.style.left = "205px";
 chickenValueHead.style.color= "rgb(80,35,20)";
 chickenValueHead.style.zIndex="1";
 
+//this is for the NEW Doritos Tangy Cheese Chicken Fries parapgraph
 let chickenValueText = document.getElementById("chickenText");
-chickenValueText.innerHTML = "150g of Aberdeen Angus or Crispy Chicken with"
+chickenValueText.innerHTML = "150g of Aberdeen Angus or Crispy Chicken"
 chickenValueText.style.position = "absolute";
 chickenValueText.style.top = "1110px";
 chickenValueText.style.left = "205px";
@@ -135,6 +144,7 @@ chickenValueText.style.color="rgb(80,35,20)";
 chickenValueText.style.fontSize="14px";
 chickenValueText.style.zIndex="1";
 
+//this is for the NEW Doritos Tangy Cheese Chicken Fries button
 let chickenValueButton = document.getElementById("chickenButton");
 chickenValueButton.href="#";
 chickenValueButton.innerHTML = "Order now";
@@ -158,6 +168,7 @@ chickenValueButton.addEventListener("mouseout", function(){
 })
 chickenValueButton.style.zIndex= "1";
 
+//this is for the NEW Doritos Tangy Cheese Chicken Fries image
 let cheeseValueImg = document.getElementById("cheese");
 cheeseValueImg.src = "https://cdn.sanity.io/images/czqk28jt/prod_bk_gb/5f714c93ee0bdac4925dcdccd9292b8a75292b16-1000x500.png?w=1125&q=40&fit=max&auto=format"
 cheeseValueImg.style.position = "absolute";
@@ -170,6 +181,7 @@ cheeseValueImg.style.paddingBottom="120px";
 cheeseValueImg.style.backgroundColor="white";  
 cheeseValueImg.style.zIndex="1";
 
+//this is for the NEW Doritos Tangy Cheese Chicken Fries heading
 let cheeseValueHead = document.getElementById("cheeseHead");
 cheeseValueHead.innerHTML = "NEW Doritos Tangy Cheese Chicken Fries";
 cheeseValueHead.style.position = "absolute";
@@ -178,8 +190,9 @@ cheeseValueHead.style.left = "775px";
 cheeseValueHead.style.color= "rgb(80,35,20)";  
 cheeseValueHead.style.zIndex="1";
 
+//this is for the NEW Doritos Tangy Cheese Chicken Fries parapgraph
 let cheeseValueText = document.getElementById("cheeseText");
-cheeseValueText.innerHTML = "150g of Aberdeen Angus or Crispy Chicken with"
+cheeseValueText.innerHTML = "150g of Aberdeen Angus or Crispy Chicken"
 cheeseValueText.style.position = "absolute";
 cheeseValueText.style.top = "1110px";
 cheeseValueText.style.left = "775px";
@@ -187,7 +200,7 @@ cheeseValueText.style.color="rgb(80,35,20)";
 cheeseValueText.style.fontSize="14px";
 cheeseValueText.style.zIndex="1";
 
-
+//this is for the NEW Doritos Tangy Cheese Chicken Fries button
 let cheeseValueButton = document.getElementById("cheeseButton");
 cheeseValueButton.href="#";
 cheeseValueButton.innerHTML = "Order now";
@@ -211,11 +224,13 @@ cheeseValueButton.addEventListener("mouseout", function(){
 })
 cheeseValueButton.style.zIndex= "1";
 
+//this is the part of the page which has a slight color chnage
 let secondPart=document.getElementById("main2");
 secondPart.style.top="1150px";
 secondPart.style.height="500px";
 secondPart.style.backgroundColor="rgb(237,225,205)";
 
+//this is the phone image
 let phoneImg=document.getElementById("phoneimg");
 phoneImg.src="https://cdn.sanity.io/images/czqk28jt/prod_bk_gb/ec025695dc78c9198b572d6b0aadda878415b78c-1340x2014.png?w=1077&q=40&fit=max&auto=format";
 phoneImg.style.position="absolute";
@@ -224,40 +239,46 @@ phoneImg.style.left="600px";
 phoneImg.style.height="600px";
 phoneImg.style.width="400px";
 
+//this is the phone paragraph
 let phoneHead=document.getElementById("phoneText");
 phoneHead.style.position="absolute";
 phoneHead.style.top="1500px";
-phoneHead.style.left="1000px";
+phoneHead.style.left="980px";
 phoneHead.innerHTML="Save £££ <br> With offers on <br> demand";
 phoneHead.style.fontSize="52px";
 phoneHead.style.color="rgb(80, 35, 20)";
 phoneHead.style.fontWeight="bolder";
 phoneHead.style.fontFamily="sans-serif";
 
+//this is the parapgraph below the phoen image
 let phonePara=document.getElementById("terms12");
 phonePara.style.position="absolute";
-phonePara.style.top="1760px";
-phonePara.style.left="1000px";
+phonePara.style.top="1845px";
+phonePara.style.left="980px";
+phonePara.style.fontFamily="sans-serif";
 phonePara.innerHTML="Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S.<br> and other countries. App Store is a service mark of Apple Inc. Google Play is a<br> trademark of Google Inc. Terms apply.";
 phonePara.style.fontSize="15px";
 phonePara.style.color="rgb(80, 35, 20)";
 
+//this is the google play image 
 let google=document.getElementById("googlePlay");
 google.style.position="absolute";
 google.src="https://logospng.org/download/google-play/logo-google-play-4096.png";
-google.style.top="1810px";
+google.style.top="1725px";
 google.style.left="1000px";
 google.style.height="150px";
 google.style.width="150px";
 
+//this is the apple image
 let Ios=document.getElementById("IosPlay")
 Ios.style.position="absolute";
 Ios.src="https://logos-download.com/wp-content/uploads/2016/06/Download_on_the_App_Store_logo.png";
-Ios.style.top="1865px";
+Ios.style.top="1780px";
 Ios.style.left="1150px";
 Ios.style.height="40px";
 Ios.style.width="150px";
 
+//this is the footer 
 let thirdPart=document.getElementById("main3");
 thirdPart.style.position="absolute";
 thirdPart.style.top="2000px";
@@ -265,6 +286,7 @@ thirdPart.style.height="700px";
 thirdPart.style.width= "100%";
 thirdPart.style.backgroundColor="rgb(32,1,1)";
 
+// load links are all the links that are in the footer
 let loadlinks=document.getElementById("aboutBK");
 loadlinks.href="https://www.burgerking.co.uk/";
 loadlinks.innerHTML= "About BK ®";
@@ -274,6 +296,7 @@ loadlinks.style.left="100px";
 loadlinks.style.fontSize="14px";
 loadlinks.style.color="rgb(172,146,126)"
 loadlinks.style.textDecoration="none";
+loadlinks.style.fontFamily="sans-serif";
 loadlinks.addEventListener("mouseover",function(){
   loadlinks.style.textDecoration="underline";
 })
@@ -290,6 +313,7 @@ loadlinks2.style.left="100px";
 loadlinks2.style.fontSize="14px";
 loadlinks2.style.color="rgb(172,146,126)"
 loadlinks2.style.textDecoration="none";
+loadlinks2.style.fontFamily="sans-serif";
 loadlinks2.addEventListener("mouseover",function(){
   loadlinks2.style.textDecoration="underline";
 })
@@ -306,6 +330,7 @@ loadlinks3.style.left="100px";
 loadlinks3.style.fontSize="14px";
 loadlinks3.style.color="rgb(172,146,126)"
 loadlinks3.style.textDecoration="none";
+loadlinks3.style.fontFamily="sans-serif";
 loadlinks3.addEventListener("mouseover",function(){
   loadlinks3.style.textDecoration="underline";
 })
@@ -322,6 +347,7 @@ loadlinks4.style.left="100px";
 loadlinks4.style.fontSize="14px";
 loadlinks4.style.color="rgb(172,146,126)"  
 loadlinks4.style.textDecoration="none";
+loadlinks4.style.fontFamily="sans-serif";
 loadlinks4.addEventListener("mouseover",function(){
   loadlinks4.style.textDecoration="underline";
 })
@@ -338,6 +364,7 @@ loadlinks5.style.left="100px";
 loadlinks5.style.fontSize="14px";
 loadlinks5.style.color="rgb(172,146,126)"
 loadlinks5.style.textDecoration="none";
+loadlinks5.style.fontFamily="sans-serif";
 loadlinks5.addEventListener("mouseover",function(){
   loadlinks5.style.textDecoration="underline";
 })
@@ -354,6 +381,7 @@ loadlinks6.style.left="100px";
 loadlinks6.style.fontSize="14px";
 loadlinks6.style.color="rgb(172,146,126)"
 loadlinks6.style.textDecoration="none";
+loadlinks6.style.fontFamily="sans-serif";
 loadlinks6.addEventListener("mouseover",function(){
   loadlinks6.style.textDecoration="underline";
 })
@@ -370,6 +398,7 @@ loadlinks7.style.left="100px";
 loadlinks7.style.fontSize="14px";
 loadlinks7.style.color="rgb(172,146,126)"
 loadlinks7.style.textDecoration="none";
+loadlinks7.style.fontFamily="sans-serif";
 loadlinks7.addEventListener("mouseover",function(){
   loadlinks7.style.textDecoration="underline";
 })
@@ -386,6 +415,7 @@ loadlinks8.style.left="700px";
 loadlinks8.style.fontSize="14px";
 loadlinks8.style.color="rgb(172,146,126)"
 loadlinks8.style.textDecoration="none";
+loadlinks8.style.fontFamily="sans-serif";
 loadlinks8.addEventListener("mouseover",function(){
   loadlinks8.style.textDecoration="underline";
 })
@@ -402,6 +432,7 @@ loadlinks9.style.left="700px";
 loadlinks9.style.fontSize="14px";
 loadlinks9.style.color="rgb(172,146,126)"
 loadlinks9.style.textDecoration="none";
+loadlinks9.style.fontFamily="sans-serif";
 loadlinks9.addEventListener("mouseover",function(){
   loadlinks9.style.textDecoration="underline";
 })
@@ -418,6 +449,7 @@ loadlinks10.style.left="700px";
 loadlinks10.style.fontSize="14px";
 loadlinks10.style.color="rgb(172,146,126)"
 loadlinks10.style.textDecoration="none";
+loadlinks10.style.fontFamily="sans-serif";
 loadlinks10.addEventListener("mouseover",function(){
   loadlinks10.style.textDecoration="underline";
 })
@@ -434,6 +466,7 @@ loadlinks11.style.left="700px";
 loadlinks11.style.fontSize="14px";
 loadlinks11.style.color="rgb(172,146,126)"
 loadlinks11.style.textDecoration="none";
+loadlinks11.style.fontFamily="sans-serif";
 loadlinks11.addEventListener("mouseover",function(){
   loadlinks11.style.textDecoration="underline";
 })
@@ -457,13 +490,13 @@ loadlinks13.style.left="700px";
 loadlinks13.style.fontSize="25px";
 loadlinks13.style.color="rgb(242,230,212)";
 
+//these are the white lines
 let hrline=document.createElement("hr");
 hrline.style.position="absolute";
 hrline.style.top="2450px";
 hrline.style.left="100px";
 hrline.style.width="1300px";
 hrline.style.backgroundColor="white";
-hrline.style.height="1px";
 document.body.appendChild(hrline);
 
 let hrline1=document.createElement("hr");
@@ -472,9 +505,9 @@ hrline1.style.top="2650px";
 hrline1.style.left="100px";
 hrline1.style.width="1300px";
 hrline1.style.backgroundColor="white";
-hrline1.style.height="1px";
 document.body.appendChild(hrline1);
 
+//burger king text in the footer 
 let kingBurger1=document.getElementById("KingBurger");
 kingBurger1.innerHTML="Burger King";
 kingBurger1.style.position="absolute";
@@ -482,6 +515,7 @@ kingBurger1.style.top="470px";
 kingBurger1.style.left="100px";
 kingBurger1.style.color="rgb(242,230,212)";
 
+//terms and conditions paragraph
 let TandC=document.getElementById("TcPar");
 TandC.innerHTML="TM & Copyright 2021 Burger King Corporation. All Rights Reserved.";
 TandC.style.position="absolute";
@@ -489,7 +523,9 @@ TandC.style.top="530px";
 TandC.style.left="100px";
 TandC.style.color="rgb(242,230,212)";
 TandC.style.fontSize="14px"
+TandC.style.fontFamily="sans-serif";
 
+//this is the instagram photo in the footer 
 let symbol1=document.getElementById("instagram");
 symbol1.src= "https://static.vecteezy.com/system/resources/previews/023/986/891/large_2x/instagram-logo-instagram-logo-transparent-instagram-icon-transparent-free-free-png.png"
 symbol1.style.position="absolute";
@@ -530,14 +566,8 @@ symbol5.style.left="1145px";
 symbol5.style.height="35px";
 symbol5.style.width="35px";
 
-// let symbol6=document.getElementById("en");
-// symbol6.style.position= "absolute";
-// symbol6.style.top="480px";
-// symbol6.style.left="1115px";
-// symbol6.innerHTML="EN-"
-// symbol6.style.fontSize="15px";
-// symbol6.style.color="white";
-
+//this is a event listner that changes the color of the order button 
+//when the mouse hovers over it
 let menuOption1=document.getElementById("Order");
 menuOption1.addEventListener("mouseover",function(){
   menuOption1.style.color="rgb(202, 11, 6)";
@@ -577,7 +607,8 @@ let menuOption5=document.getElementById("More");
   menuOption5.addEventListener("mouseout",function(){
     menuOption5.style.color="rgb(80, 35, 20)";
   })
-
+//this gets rid of the line when you hover over it on the choose your 
+//location text
 let menuOption6=document.getElementById("location2");
   menuOption6.addEventListener("mouseover",function(){
     menuOption6.style.textDecoration="none";
